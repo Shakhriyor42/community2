@@ -1,0 +1,77 @@
+.resent__post {
+    background-color: $white;
+    padding: 5.6rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    margin-bottom: 12.8rem;
+}
+
+.resent__image {
+    width: 49%;
+
+    &>img {
+        width: 100%;
+    }
+}
+
+.resent__content {
+    width: 49%;
+    padding: 2.8rem 0;
+}
+
+.resent__subtitle {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-bottom: 1.2rem;
+}
+
+.resent__adress {
+    width: 30%;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    text-transform: uppercase;
+    opacity: 0.8;
+}
+
+.resent__author {
+    width: 30%;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    text-transform: uppercase;
+    opacity: 0.8;
+}
+
+.resent__title {
+    width: 90%;
+    font-weight: 700;
+    font-size: 3.2rem;
+    line-height: 4.4rem;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+
+    margin-bottom: 1.6rem;
+}
+
+.resent__text {
+    width: 90%;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    opacity: 0.78;
+
+    margin-bottom: 3.2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+

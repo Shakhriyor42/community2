@@ -1,0 +1,38 @@
+.mains {
+    background: url('../../assets/images/background/home.png') center / cover no-repeat;
+    padding: 12.8rem 0;
+    margin-bottom: 12.8rem;
+    width: 100%;
+}
+
+.main__subtitle {
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    text-transform: uppercase;
+    color: $white;
+
+    margin-bottom: 1.6rem;
+}
+
+.main__title {
+    font-weight: 700;
+    font-size: 6.4rem;
+    line-height: 8.2rem;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: $white;
+
+    margin-bottom: 3.2rem;
+    display: block;
+    width: 50%;
+}
+
+.main__text {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: $white;
+
+    margin-top: 6.4rem;
+}

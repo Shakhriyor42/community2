@@ -1,0 +1,58 @@
+.visit {
+    background: url(../../assets/images/background/home2.png) 50%/cover no-repeat;
+    padding: 12.8rem 36.6rem;
+}
+
+.visit__item {
+    width: 100%;
+    background-color: $white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+
+    &::after {
+        content: "";
+        background-color: $primary;
+        height: 1.6rem;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        z-index: 2;
+    }
+}
+
+.visit__content {
+    width: 60%;
+    padding: 7.2rem 4.8rem;
+}
+
+.visit__title {
+    font-weight: 700;
+    font-size: 4.8rem;
+    line-height: 6.4rem;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+
+    margin-bottom: 1.6rem;
+}
+
+.visit__subtitle {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    opacity: 0.78;
+    display: block;
+    width: 70%;
+
+    margin-bottom: 1.6rem;
+}
+
+.visit__icon {
+    width: 35%;
+    margin: auto 0;
+
+    &>img {
+        display: block;
+        margin: 0 auto;
+    }
+}

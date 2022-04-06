@@ -1,0 +1,39 @@
+.btn {
+    display: block;
+    border: none;
+    background: $primary;
+    backdrop-filter: blur(80px);
+    border-radius: 1.2rem;
+
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    text-transform: uppercase;
+    color: $black;
+    padding: 1.6rem 4.8rem;
+
+    transition: all .2s ease-in;
+
+    &:hover {
+        background-color: $secondary;
+    }
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.w100p {
+    width: 100%;
+}
+
+.black {
+    background: $black;
+    color: $primary;
+
+    transition: all .2s linear;
+
+    &:hover {
+        color: $white;
+        background-color: $black;
+    }
+}

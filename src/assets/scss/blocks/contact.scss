@@ -1,0 +1,106 @@
+.contact__main {
+    padding: 16rem 0;
+    // margin-bottom: 12.8rem;
+    background: url(../../assets/images/background/contact.png) 50%/cover no-repeat;
+}
+
+.contact__main-subtitle {
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    text-transform: uppercase;
+    color: $primary;
+
+    margin-bottom: 1.6rem;
+}
+
+.contact__main-title {
+    font-weight: 700;
+    font-size: 4.8rem;
+    line-height: 6.4rem;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: $white;
+    width: 35%;
+}
+
+.contact {
+    background-color: $background;
+    padding: 12.8rem 0;
+}
+
+.contact__title {
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    width: 60%;
+
+    margin-bottom: 3.2rem;
+    }
+
+.contact__item {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact__form {
+    width: 50%;
+}
+
+.contact__input {
+    width: 100%;
+    background: $white;
+    border-radius: 4px;
+    padding: 2rem;
+    margin-bottom: 1.2rem;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    border: none;
+
+    &::placeholder {
+        color: $black;
+    }
+}
+
+.contact__textarea {
+    width: 100%;
+    background: $white;
+    border-radius: 4px;
+    padding: 2rem;
+    margin-bottom: 1.2rem;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    border: none;
+    font-family: inherit;
+}
+
+.contact__content {
+    margin-left: 12.8rem;
+}
+
+.contact__subtitle {
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+    opacity: 0.7;
+
+    margin-bottom: 0.8rem;
+    }
+
+.contact__social {
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+
+    & img {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+}
+
+
+
+
+
+
